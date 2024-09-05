@@ -92,3 +92,5 @@ for ite in range(iteration):
 print('route of all the ants at the end :')
 print(rute_opt)
 print()
+print('best path :',best_route)
+print('cost of the best path',int(dist_min_cost[0]) + d[int(best_route[-2])-1,0])
